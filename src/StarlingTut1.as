@@ -24,6 +24,10 @@ import starling.core.Starling;
 
             // create our starling instance
             mStarling = new Starling(Game, stage);
+
+            // emulate multi-touch
+            mStarling.simulateMultitouch = true;
+
             mStarling.showStats = true;
 
             // set anti-aliasing (the higher the better but slower performance
